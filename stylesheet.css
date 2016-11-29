@@ -1,0 +1,315 @@
+html {
+  background-color: #282828;
+  background-image: url("https://thequillwritings.files.wordpress.com/2013/10/grey.jpg");
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+/*section intro*/
+
+.intro {
+background-image: url("images/blacktreesresized.jpg");
+padding-top: 85px;
+}
+
+.introdiv {
+  margin: 0 auto;
+  width: 80%;
+  border: 15px white solid;
+}
+
+.intro a {
+  color: #DBC1C7;
+  text-decoration: underline;
+}
+
+.intro h1 {
+  font-size: 185px;
+  color: #BDA384;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+.intro span {
+  background-color: white;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  padding-top: 0;
+}
+
+.intro p {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+.intro h4 {
+  color: #BDA384;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+
+}
+
+.intro h2 {
+  font-size: 55px;
+  color: white;
+  font-weight: 700;
+  font-family: 'Kanit', sans-serif;
+
+}
+
+/*section class one*/
+
+.one {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+h1 {
+  color: #BDA384;
+  font-family: 'Kanit', sans-serif;
+  font-size: 72px;
+  margin-bottom: 3px;
+}
+
+.first_frame {
+  border: 10px solid white;
+  /*max-width: 800px;*/
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+h4 {
+  color: #BDA384;
+  font-family: 'Kanit', sans-serif;
+  font-size: 35px;
+  margin: auto;
+  /*padding: 60px;*/
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+span {
+  color: black;
+  background-color: white;
+  font-size: 18px;
+  display: inline-block;
+  line-height: 35px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.submit {
+  color: #BDA384;
+  font-family: 'Kanit', sans-serif;
+  border: 10px solid white;
+  background-color: transparent;
+  font-size: 24px;
+  margin-top: 15px;
+  text-transform: capitalize;;
+  line-height: 55px;
+  padding: 13px;
+}
+
+/*added some transition tricks*/
+.submit:hover {
+  background-color: white;
+  color: black;
+  transition: all 1s ease 0s;
+}
+
+/*section class two*/
+
+.two {
+  background-color: #D7D7D7;
+}
+
+.two h2 {
+  padding-top: 80px;
+  color: #BDA384;
+  font-size: 62px;
+  font-family: 'Kanit', sans-serif;
+  margin-bottom: 2px;
+
+}
+
+.two span {
+  color: white;
+  background-color: #282828;
+}
+
+.two p {
+  color: black;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.inputreqd {
+  border: 10px black solid;
+  margin: 0 auto;
+  width: 41%;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: transparent;
+  color: black;
+  margin: 7px;
+  text-align: center;
+  font-size: 16px!important;
+  color: #282828!important;
+}
+
+/*trying to make placecholder text black*/
+/*:placeholder {
+  color: black;
+}*/
+
+#textreqd {
+  text-align: left;
+    width: 95%;
+    box-sizing: border-box;
+    padding: 15px!important;
+    height: 160px;
+}
+
+.inputs {
+width: 60%;
+margin: 0 auto;
+/*display: block;*/
+}
+
+/*cannot get this tight under the inputs box...it seems like the original page has it written as a span tag*/
+.countwords {
+  text-align: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  right: 6px;
+  bottom: -6px;
+  color: black;
+}
+
+.boxes {
+  color: black;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+}
+
+/*.boxes input {
+  border: 3px solid black;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}*/
+
+.apply_now {
+  color: #D7D7D7;
+  background-color: #BDA384;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: 'Kanit', sans-serif;
+  border: none;
+  width: 65%;
+  margin: 25px;
+  padding-top: 45px;
+  padding-bottom: 35px;
+}
+
+/*added some transition tricks*/
+.apply_now:hover {
+  color: black;
+  transition: all 1s ease .3s;
+  font-size: 45px;
+
+}
+
+.two .about_us {
+  color: #BDA384;
+  padding: 20px;
+  font-size: 28px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 0;
+}
+
+a  {
+  text-decoration: none;
+}
+
+/*section class three*/
+
+.three {
+  background-image: url("images/woodresized.jpg");
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.border {
+margin-top: 400px;
+max-width: 80%;
+border: 12px solid white;
+margin: 0 auto;
+margin-bottom: 40px;
+padding-bottom: 100px;
+}
+
+.three h2 {
+  color: #D7D7D7;
+  font-family: 'Kanit', sans-serif;
+  font-size: 68px;
+  padding-top: 30px;
+}
+
+.three p {
+  color: black;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  width: 870px;
+  margin: auto;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+
+#link {
+  color: #D7D7D7;
+  font-size: 28px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+.three h1 {
+  text-transform: uppercase;
+  color: #D7D7D7;
+  font-family: 'Kanit', sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 34px;
+  margin-bottom: 25px;
+}
+
+.three h4 {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700px;
+  color: black;
+  letter-spacing: 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
